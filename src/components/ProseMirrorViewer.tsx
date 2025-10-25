@@ -115,7 +115,7 @@ export function ProseMirrorViewer({ proseMirrorJson }: ProseMirrorViewerProps) {
         ]);
       }
     },
-    onContentError: ({ _, error }) => {
+    onContentError: ({ error }) => {
       // Capture editor errors
       setWarnings((prev) => [
         ...prev,
